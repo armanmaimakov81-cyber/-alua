@@ -1,7 +1,6 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
-    
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Happy Birthday, Alua ❤️</title>
@@ -9,86 +8,111 @@
 </head>
 <body>
 
-    <div class="background"></div>
+<div class="background"></div>
 
-    <main class="container">
+<main class="container">
 
-        <section class="screen active" id="startScreen">
-            <div class="heart-decoration">♡</div>
-            <h1>Happy Birthday, Alua</h1>
-            <p class="subtitle">Will you accept my birthday wishes?</p>
+    <section class="screen active" id="startScreen">
+        <div class="heart-decoration">♡</div>
+        <h1>Happy Birthday, Alua</h1>
+        <p class="subtitle">Will you accept my birthday wishes?</p>
 
-            <div class="buttons">
-                <button id="yesBtn">Yes ❤️</button>
-                <button id="noBtn">No</button>
-            </div>
-        </section>
+        <div class="buttons">
+            <button id="yesBtn">Yes ❤️</button>
+            <button id="noBtn">No</button>
+        </div>
+    </section>
 
-        <section class="screen" id="birthdayScreen">
-            <div class="birthday-content">
-                <div class="photo-wrapper">
-                    <img src="odin.jpg" alt="Alua">
-                </div>
+    <section class="screen" id="birthdayScreen">
 
-                <div class="message">
-                    <h2>For the most beautiful girl</h2>
+        <div class="birthday-content">
 
-                    <p>
-                        Happy birthday, my love.
-                    </p>
-
-                    <p>
-                        I hope this day brings you as much happiness
-                        as you bring into my life.
-                    </p>
-
-                    <p>
-                        I am incredibly grateful that you are in my life.
-                        For your smile, your voice, your laugh,
-                        your kindness, and for every little moment
-                        we share together.
-                    </p>
-
-                    <p>
-                        I hope this new year of your life will be
-                        full of beautiful moments, unforgettable memories
-                        and everything that makes you happy.
-                    </p>
-
-                    <p>
-                        And no matter what happens,
-                        I want you to know that you are very special to me.
-                    </p>
-
-                    <p class="signature">
-                        Happy birthday, жаным. ❤️
-                    </p>
-                </div>
+            <div class="photo-wrapper">
+                <img src="odin.jpg" alt="Alua">
             </div>
 
-            <div class="song-section">
-    <button id="songButton" class="song-button">
-        🎵 Песня, которая напоминает о тебе
-    </button>
+            <div class="message">
+                <h2>For the most beautiful girl</h2>
 
-    <div id="playerContainer" class="player-container">
-        <iframe
-            src="https://www.youtube.com/embed/MqcLEMIc_7w"
-            title="ELESTET — Alem"
-            frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            allowfullscreen>
-        </iframe>
-    </div>
-</div>
-            <div class="final-love">
-                <h2>Люблю тебя</h2>
-                <div class="pulse-heart">♥</div>
+                <p>Happy birthday, my love.</p>
+
+                <p>
+                    I hope this day brings you as much happiness
+                    as you bring into my life.
+                </p>
+
+                <p>
+                    I am incredibly grateful that you are in my life.
+                    For your smile, your voice, your laugh,
+                    your kindness, and for every little moment
+                    we share together.
+                </p>
+
+                <p>
+                    I hope this new year of your life will be
+                    full of beautiful moments, unforgettable memories
+                    and everything that makes you happy.
+                </p>
+
+                <p>
+                    And no matter what happens,
+                    I want you to know that you are very special to me.
+                </p>
+
+                <p class="signature">
+                    Happy birthday, жаным. ❤️
+                </p>
             </div>
-        </section>
 
-    </main>
+        </div>
 
-    <script src="script.js"></script>
+        <div class="song-section">
+            <button id="songButton" class="song-button">
+                🎵 Песня, которая напоминает о тебе
+            </button>
+        </div>
+
+        <div class="final-love">
+            <h2>Люблю тебя</h2>
+            <div class="pulse-heart">♥</div>
+        </div>
+
+    </section>
+
+    <section class="screen" id="songScreen">
+
+        <div class="song-page">
+
+            <button id="backButton" class="back-button">←</button>
+
+            <div class="music-icon">♪</div>
+
+            <h2>Песня, которая напоминает о тебе</h2>
+
+            <p class="song-title">ELESTET</p>
+            <p class="artist">Алем</p>
+
+            <div class="video-card">
+                <iframe
+                    src="https://www.youtube.com/embed/MqcLEMIc_7w"
+                    title="ELESTET — Алем"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen>
+                </iframe>
+            </div>
+
+            <button id="backButtonBottom" class="back-bottom">
+                Вернуться к поздравлению ❤️
+            </button>
+
+        </div>
+
+    </section>
+
+</main>
+
+<script src="script.js"></script>
+
 </body>
 </html>
