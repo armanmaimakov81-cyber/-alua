@@ -31,13 +31,6 @@ noBtn.addEventListener("click", () => {
         }
     }
 });
-const songButton = document.getElementById("songButton");
-const playerContainer = document.getElementById("playerContainer");
-
-songButton.addEventListener("click", () => {
-    playerContainer.classList.add("show");
-    songButton.style.display = "none";
-});
 yesBtn.addEventListener("click", () => {
     startScreen.classList.remove("active");
 
@@ -48,4 +41,11 @@ yesBtn.addEventListener("click", () => {
             behavior: "smooth"
         });
     }, 200);
+});
+const songButton = document.getElementById("songButton");
+const playerContainer = document.getElementById("playerContainer");
+
+songButton.addEventListener("click", () => {
+    playerContainer.classList.add("show");
+    songButton.style.display = "none";
 });
