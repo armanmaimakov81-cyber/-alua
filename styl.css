@@ -13,7 +13,26 @@ body {
     overflow-x: hidden;
     background: #06152f;
 }
+.player-container {
+    display: none;
+    width: 100%;
+    max-width: 560px;
+    margin: 25px auto 0;
+    aspect-ratio: 16 / 9;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 15px 40px rgba(0, 80, 255, 0.25);
+}
 
+.player-container.show {
+    display: block;
+}
+
+.player-container iframe {
+    width: 100%;
+    height: 100%;
+    border: none;
+}
 .background {
     position: fixed;
     inset: 0;
